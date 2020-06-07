@@ -39,7 +39,7 @@ The lab environment can be created with CarND Term1 Starter Kit. Click [here](ht
 [image2]: ./example/data_distribution.png
 [image3]: ./example/after_processing.png
 [image4]: ./example/acc.png
-[image5]: ./example/new_test.png
+[image5]: ./example/newtest.png
 [image10]: ./example/top5softmax_for_new_imgs.png
 [image11]: ./example/test.png
 [image12]: ./example/visualize_network_state.png
