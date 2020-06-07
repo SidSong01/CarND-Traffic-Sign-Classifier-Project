@@ -43,10 +43,8 @@ The lab environment can be created with CarND Term1 Starter Kit. Click [here](ht
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
-
- ---
-### README
-
+[image9]: ./examples/placeholder.png "Traffic Sign 5"
+[image10]: ./examples/placeholder.png "Traffic Sign 5"
 
 ### Data Set Summary & Exploration
 
@@ -136,13 +134,11 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-
-
-| 30 km/h	      		| 30 km/h					 				|
-| Yield					| Yield											|
-| Stop Sign      		| Stop sign   									| 
+| 30 km/h | 30 km/h	|
+| Yield | Yield	|
+| Stop Sign | Stop sign | 
 | No vehicle			| No vehicle	|
-| No entry    			| No entry						|
+| No entry | No entry |
 
 
 The model was able to correctly guess all of the traffic signs, which gives an accuracy of 100%. This is better compares favorably to the accuracy on the test set of 96.69%.
@@ -158,3 +154,5 @@ The code for making predictions on my final model is located after the `Output T
 ### Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 
 ![alt text][image11]
+
+![alt text][image12]
