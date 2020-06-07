@@ -35,18 +35,14 @@ The lab environment can be created with CarND Term1 Starter Kit. Click [here](ht
 
 [//]: # (Image References)
 
-[image1]: ./examples/training_data.png
-[image2]: ./examples/data_distribution.png
-[image3]: ./examples/after_processing.png
-[image4]: ./examples/acc.png
-[image5]: ./signs/label1.jpg
-[image6]: ./signs/label13.jpg
-[image7]: ./signs/label14.jpg
-[image8]: ./signs/label15.jpg
-[image9]: ./signs/label17.jpg
-[image10]: ./examples/top5softmax_for_new_imgs.png
-[image11]: ./examples/test.png
-[image12]: ./examples/visualize_network_state.png
+[image1]: ./example/training_data.png
+[image2]: ./example/data_distribution.png
+[image3]: ./example/after_processing.png
+[image4]: ./example/acc.png
+[image5]: ./example/new_test.png
+[image10]: ./example/top5softmax_for_new_imgs.png
+[image11]: ./example/test.png
+[image12]: ./example/visualize_network_state.png
 
 ### Data Set Summary & Exploration
 
@@ -126,8 +122,7 @@ The data augmentation has helpped improve the acc, without it, the training resu
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image5] ![alt text][image6] ![alt text][image7] 
-![alt text][image8] ![alt text][image9]
+![alt text][image5]
 
 
 #### 2. Testing results for new images.
