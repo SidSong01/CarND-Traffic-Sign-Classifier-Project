@@ -3,7 +3,8 @@
 
 Overview
 ---
-In this project, I used what I've learned about deep neural networks and convolutional neural networks to classify traffic signs. I trained and validated a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, I tried out my model on images of German traffic signs that I found on the web.
+
+I trained and validated a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, I tried out my model on images of German traffic signs that I found on the web.
 
 The main execution is `Traffic_Sign_Classifier.ipynb`.
 
@@ -49,7 +50,7 @@ The lab environment can be created with CarND Term1 Starter Kit. Click [here](ht
 #### 1. A basic summary of the data set.
 
 
-* Number of training examples = 34799
+* Number of training examples = 34799, and 215000 used in training after data augmentation.
 * Number of testing examples = 12630
 * Number of validation examples = 4410
 * Image data shape = (32, 32, 3)
@@ -90,7 +91,7 @@ My final model consisted of the following layers:
 | Flatten, concatenate 14x14x24 and 3x3x48 | outputs 5136		|
 |	First fully connected with 512 neurons and dropout | outputs 512 |
 |	Second fully connected with 256 neurons and dropout | outputs 256 |
-|	Outputs with 43 neurons, the label number |	outputs	43	|
+|	Outputs with 43 neurons, the number of labels |	outputs	43	|
  
 
 
