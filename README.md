@@ -4,7 +4,7 @@
 Overview
 ---
 
-I trained and validated a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, I tried out my model on images of German traffic signs that I found on the web.
+I trained and validated a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, it was tried out on several images of German traffic signs that I found on the web.
 
 The main execution is `Traffic_Sign_Classifier.ipynb`.
 
